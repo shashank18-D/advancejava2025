@@ -100,13 +100,13 @@ Q10. Write a Java Program for Counting the number of words in a string using use
 🔗 Output Screenshot
 
 ## 4a. Basic hello program of Swing displaying the message Hello! VI C , Welcome to Swing Programming in Blue color plain font with font size of 32 using Jframe and Jlabel
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab4Swing/SwingExample.jpeg)
 
 4b. Develop a Swing program in Java to display a message “Srilanka is pressed” or “India is pressed” depending upon the Jbutton either Srilanka or India is pressed by implementing the event handling mechanism with addActionListener( ).
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab4Swing/ButtonExample.jpeg)
 
 4c. Develop a Swing program in Java to display a message “Digital Clock is pressed” or “Hour Glass is pressed” depending upon the Jbutton with image either Digital Clock or Hour Glass is pressed by implementing the event handling mechanism with addActionListener( ).
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab4Swing/ClockUI.jpeg)
 
 5a. Develop a Swing program in Java to add the countries USA, India, Vietnam, Canada, Denmark, France, Great Britain, Japan, Africa, Greenland, Singapore into a JList and display them on console whenever the countries are selected on the list.
 🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab5Swing/JListExample.png)
