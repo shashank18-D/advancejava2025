@@ -1,142 +1,105 @@
-/*
- 2. Develop a Java program for adding elements [Apple, Banana, Orange] into HashSet, TreeSet
-and LinkedHashSet to perform the following operations directed as follows
-HashSet Demonstration :HashSet after adding elements: [Apple, Orange, Banana], Size of HashSet:
-3, Is HashSet empty? false, Contains 'Apple'? true, Contains 'Grape'? False, After removing 'Banana':
-[Apple, Orange]
-TreeSet Demonstration : TreeSet (automatically sorted): [Elephant, Lion, Tiger, Zebra]
-LinkedHashSet Demonstration: LinkedHashSet (maintains insertion order): [Red, Green, Blue]
-Set Operations Demonstration:Union of sets: [1, 2, 3, 4, 5, 6, 7, 8], Intersection of sets: [4, 5]
-Difference of sets (set1 - set2): [1, 2, 3]
-Iteration Demonstration : Using for-each loop,Using Iterator
- */
-// package ex1;
-import java.util.*;
+
+
+/*Develop a java program for performing various string operations with different string
+handling functions directed as follows
+String Creation and Basic Operations, Length and Character Access, String Comparison, String
+Searching, Substring Operations , String Modification, Whitespace Handling, String Concatenation,
+String Splitting, StringBuilder Demo, String Formatting , Validate Email with contains( ) and
+startsWith() and endsWith() */
+
+package lab2;
 public class MapInterfaceDemo {
-	public static void main(String[] args) {
-		// HashMap Demonstration
-		System.out.println("=== HashMap Demonstration ===");
-		Map<String, Integer> hashMap = new HashMap<>();
-		// 1. Basic Operations
-		// Adding elements
-		hashMap.put("Apple", 1);
-		hashMap.put("Banana", 2);
-		hashMap.put("Orange", 3);
-		System.out.println("Initial HashMap: " + hashMap);
-		// Updating value
-		hashMap.put("Apple", 5); // Updates existing value
-		System.out.println("After updating Apple's value: " + hashMap);
-		// putIfAbsent
-		hashMap.putIfAbsent("Apple", 10); // Won't update as key exists
-		hashMap.putIfAbsent("Grape", 4); // Will add new entry
-		System.out.println("After putIfAbsent operations: " + hashMap);
-		// 2. Accessing Elements
-		System.out.println("\nAccessing Elements:");
-		System.out.println("Value for Apple: " + hashMap.get("Apple"));
-		System.out.println("Value for missing key: " + hashMap.get("Mango"));
-		System.out.println("Value for missing key with default: " + hashMap.getOrDefault("Mango", 0));
+public static void main(String[] args) {
+// Basic String Creation
+System.out.println("=== String Creation and Basic Operations ===");
+String str1 = "Hello, World!";
+String str2 = new String("Java Programming");
+System.out.println("Original strings:");
+System.out.println("str1: " + str1);
+System.out.println("str2: " + str2);
+// Length and Character Access
+System.out.println("\n=== Length and Character Access ===");
+System.out.println("Length of str1: " + str1.length());
+System.out.println("Character at index 4 in str1: " + str1.charAt(4));
+// String Comparison
+System.out.println("\n=== String Comparison ===");
+String str3 = "hello, world!";
+System.out.println("str1 equals str3: " + str1.equals(str3));
+System.out.println("str1 equals str3 (ignore case): " + str1.equalsIgnoreCase(str3));
+System.out.println("str1 compareTo str3: " + str1.compareTo(str3));
+// Searching in Strings
+System.out.println("\n=== String Searching ===");
+System.out.println("Index of 'World' in str1: " + str1.indexOf("World"));
+System.out.println("Last index of 'o' in str1: " + str1.lastIndexOf('o'));
+System.out.println("str1 contains 'Hello': " + str1.contains("Hello"));
+// Substring Operations
+System.out.println("\n=== Substring Operations ===");
+System.out.println("Substring of str1 (7 to end): " + str1.substring(7));
+System.out.println("Substring of str1 (0 to 5): " + str1.substring(0, 5));
+// String Modification
+System.out.println("\n=== String Modification ===");
+System.out.println("Uppercase: " + str1.toUpperCase());
+System.out.println("Lowercase: " + str1.toLowerCase());
+System.out.println("Replace 'World' with 'Java': " + str1.replace("World", "Java"));
 
-		// 3. Removing Elements
-		hashMap.remove("Banana");
-		System.out.println("After removing Banana: " + hashMap);
-		// Conditional remove
-		hashMap.remove("Apple", 5); // Removes only if value matches
-		System.out.println("After conditional remove: " + hashMap);
-		// 4. TreeMap Demonstration (Sorted Map)
-		System.out.println("\n=== TreeMap Demonstration ===");
+// Whitespace Handling
+System.out.println("\n=== Whitespace Handling ===");
+String spacedString = " Trimming Example ";
+System.out.println("Original: '" + spacedString + "'");
+System.out.println("After trim: '" + spacedString.trim() + "'");
+// String Concatenation
+System.out.println("\n=== String Concatenation ===");
+String concat1 = "Hello";
+String concat2 = "World";
+System.out.println("Using + operator: " + concat1 + " " + concat2);
+System.out.println("Using concat(): " + concat1.concat(" ").concat(concat2));
+// String Splitting
+System.out.println("\n=== String Splitting ===");
+String csvText = "Java,Python,C++,JavaScript";
+System.out.println("Original CSV: " + csvText);
+String[] languages = csvText.split(",");
+System.out.println("After splitting:");
+for (int i = 0; i < languages.length; i++) {
+System.out.println("Language " + (i + 1) + ": " + languages[i]);
+}
+// String Building with StringBuilder
+System.out.println("\n=== StringBuilder Demo ===");
+StringBuilder builder = new StringBuilder();
+builder.append("Learning ");
+builder.append("Java ");
+builder.append("Programming");
+System.out.println("StringBuilder result: " + builder.toString());
+builder.insert(9, "Core ");
+System.out.println("After insert: " + builder.toString());
+builder.reverse();
+System.out.println("After reverse: " + builder.toString());
+// String Formatting
+System.out.println("\n=== String Formatting ===");
+String formatted = String.format("Name: %s, Age: %d, Height: %.2f", "John", 25, 1.75);
+System.out.println("Formatted string: " + formatted);
+// Checking String Properties
+System.out.println("\n=== String Properties ===");
+String testString = "Java123";
+System.out.println("Is empty: " + testString.isEmpty());
+System.out.println("Starts with 'Ja': " + testString.startsWith("Ja"));
+System.out.println("Ends with '123': " + testString.endsWith("123"));
+// Practical Example: Email Validation
+System.out.println("\n=== Practical Example: Email Validation ===");
 
-		TreeMap<String, Integer> scores = new TreeMap<>();
-		// 5 Adding elements (put operation)
-		scores.put("Alice", 95);
-		scores.put("Bob", 82);
-		scores.put("Charlie", 90);
-		scores.put("David", 78);
-		scores.put("Eva", 88);
-		// Display the TreeMap (naturally sorted by keys)
-		System.out.println("TreeMap contents: " + scores);
-		// 6 Accessing elements (get operation)
-		System.out.println("Charlie's score: " + scores.get("Charlie"));
-		// 7. removing elements
-		scores.remove("David");
-		System.out.println("After removing David: " + scores);
-		// 8 Navigation operations (TreeMap-specific)
-		// First (lowest) and last (highest) entries
-		System.out.println("First entry: " + scores.firstEntry());
-		System.out.println("Last entry: " + scores.lastEntry());
-		// 8 naturally ordered by keys
-		Map<String, Integer> treeMap = new TreeMap<>();
-		treeMap.put("Zebra", 1);
-		treeMap.put("Lion", 2);
-		treeMap.put("Elephant", 3);
-		System.out.println("TreeMap (naturally ordered by keys): " + treeMap);
-		// 9. eldest entry if size exceeds 3
-		System.out.println("\n=== LinkedHashMap Demonstration ===");
-		Map<String, Integer> linkedHashMap = new LinkedHashMap<>() {
-		@Override
-
-		protected boolean removeEldestEntry(Map.Entry<String, Integer> eldest) {
-		return size() > 3; // Remove eldest entry if size exceeds 3
-		}
-		};
-		linkedHashMap.put("A", 1);
-		linkedHashMap.put("B", 2);
-		linkedHashMap.put("C", 3);
-		System.out.println("Initial LinkedHashMap: " + linkedHashMap);
-		linkedHashMap.put("D", 4); // Will remove eldest entry
-		System.out.println("After adding D (notice removal of eldest): " + linkedHashMap);
-		// 10. Iterating Over Map
-		System.out.println("\n=== Map Iteration ===");
-		// Iterating over entries
-		System.out.println("Iterating over entries:");
-		for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
-		System.out.println(entry.getKey() + " -> " + entry.getValue());
-		}
-		// Iterating over keys
-		System.out.println("\nIterating over keys:");
-		for (String key : hashMap.keySet()) {
-		System.out.println("Key: " + key);
-		}
-		// Iterating over values
-		System.out.println("\nIterating over values:");
-		for (Integer value : hashMap.values()) {
-		System.out.println("Value: " + value);
-		}
-		// 11. Map Operations
-		System.out.println("\n=== Map Operations ===");
-		Map<String, Integer> map1 = new HashMap<>();
-		map1.put("A", 1);
-		map1.put("B", 2);
-		// Merging maps
-		Map<String, Integer> map2 = new HashMap<>();
-		map2.put("B", 3);
-		map2.put("C", 4);
-		// Merge with custom remapping function
-		map2.forEach((key, value) ->
-		map1.merge(key, value, (v1, v2) -> v1 + v2));
-		System.out.println("After merging maps: " + map1);
-
-		// 12. Compute Operations
-		System.out.println("\n=== Compute Operations ===");
-		map1.compute("A", (k, v) -> (v == null) ? 1 : v * 2);
-		System.out.println("After computing A: " + map1);
-		map1.computeIfPresent("B", (k, v) -> v * 3);
-		System.out.println("After computeIfPresent B: " + map1);
-		map1.computeIfAbsent("D", k -> 10);
-		System.out.println("After computeIfAbsent D: " + map1);
-		// 13. Bulk Operations
-		System.out.println("\n=== Bulk Operations ===");
-		Map<String, Integer> newMap = new HashMap<>();
-		newMap.putAll(map1);
-		System.out.println("After putAll: " + newMap);
-		// Clear the map
-		newMap.clear();
-		System.out.println("After clearing: " + newMap);
-		// 14. Checking Operations
-		System.out.println("\n=== Checking Operations ===");
-		System.out.println("Is map empty? " + newMap.isEmpty());
-		System.out.println("Map size: " + map1.size());
-		System.out.println("Contains key 'A'? " + map1.containsKey("A"));
-		System.out.println("Contains value 1? " + map1.containsValue(1));
-		}
-		
+String email = "user@example.com";
+boolean isValidEmail = validateEmail(email);
+System.out.println("Email: " + email);
+System.out.println("Is valid: " + isValidEmail);
+}
+// Helper method for email validation
+private static boolean validateEmail(String email) {
+// Basic email validation
+return email != null &&
+email.contains("@") &&
+email.contains(".") &&
+email.indexOf("@") < email.lastIndexOf(".") &&
+!email.startsWith("@") &&
+!email.endsWith(".") &&
+email.length() >= 5;
+}
 }
