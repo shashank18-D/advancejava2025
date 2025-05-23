@@ -8,49 +8,49 @@ Adding elements, 2. Adding element at specific index, 3. Adding multiple element
 
 [Output Sreenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/ColorSearchArrayList.png)
 
-2.Write a java program for getting different colors through ArrayList interface and remove the 2nd element and color "Blue" from the ArrayList
+## 2.Write a java program for getting different colors through ArrayList interface and remove the 2nd element and color "Blue" from the ArrayList
 
 [Output Sreenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/RemoveColorArrayList.png)
 
-3.Write a java program for getting different colors through ArrayList interface and sort them using Collections.sort( ArrayListObj)
+## 3.Write a java program for getting different colors through ArrayList interface and sort them using Collections.sort( ArrayListObj)
 
 🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/InsertEndLinkedList.png)
 
-4.Write a java program for getting different colors through ArrayList interface and extract the elements 1st and 2nd from the ArrayList object by using SubList()
+## 4.Write a java program for getting different colors through ArrayList interface and extract the elements 1st and 2nd from the ArrayList object by using SubList()
 
 🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/DisplayWithPositionsLinkedList.png)
 
-5.Write a java program for getting different colors through ArrayList interface and delete nth element from the ArrayList object by using remove by index
+## 5.Write a java program for getting different colors through ArrayList interface and delete nth element from the ArrayList object by using remove by index
 
 🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/DeleteNthElementArrayList.png)
 
 ## 1c. Linked List Programs
 1.Write a Java program to iterate through all elements in a linked list starting at the specified position ( 2nd) using iterator ( hint : Iterator iteratorobj = listobj.listIterator(1))
 
-🔗 Output Screenshot
+🔗 [Output Screenshot]()
 
 2.Write a Java program to iterate a linked list in reverse order (using objlist.descendingIterator())
 
-🔗 Output Screenshot
+🔗[Output Screenshot]()
 
 3.Write a Java program to insert the specified element at the end of a linked list.( using l_listobj.offerLast("Pink"))
 
-🔗 Output Screenshot
+🔗 [Output Screenshot]()
 
 4.Write a Java program to display elements and their positions in a linked list ( using l_listobj.get(p) )
 
-🔗 Output Screenshot
+🔗 [Output Screenshot]()
 
 5.Write a Java program that swaps two elements ( first and third elements ) in a linked list ( using Collections.swap(l_list, 0, 2))
 
-🔗 Output Screenshot
+🔗 [Output Screenshot]()
 
-2a. Develop a java program for performing various string operations with different string handling functions directed as follows:
+## 2a. Develop a java program for performing various string operations with different string handling functions directed as follows:
 String Creation and Basic Operations, Length and Character Access, String Comparison, String Searching, Substring Operations , String Modification, Whitespace Handling, String Concatenation, String Splitting, StringBuilder Demo, String Formatting , Validate Email with contains( ) and startsWith() and endsWith()
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab2/MapInterfaceDemo1.png/https://github.com/shashank18-D/advancejava2025/blob/main/Lab2/MapInterfaceDemo%20(2).png)
 
 2b. Develop a Java program to make a Performance Test on StringBuffer and StringBuilder for appending the string ‘AIET’ for 10000 times both in the StringBuffer and StringBuilder. Justify your answer which one is better.
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab2/PerformanceTest.png)
 
 3a. Develop a java program for performing various string operations with different string handling functions directed as follows:
 String Creation and Basic Operations, Length and Character Access, String Comparison, String Searching, Substring Operations , String Modification, Whitespace Handling, String Concatenation, String Splitting, StringBuilder Demo, String Formatting , Validate Email with contains( ) and startsWith() and endsWith()
@@ -99,7 +99,7 @@ Q10. Write a Java Program for Counting the number of words in a string using use
 
 🔗 Output Screenshot
 
-4a. Basic hello program of Swing displaying the message Hello! VI C , Welcome to Swing Programming in Blue color plain font with font size of 32 using Jframe and Jlabel
+## 4a. Basic hello program of Swing displaying the message Hello! VI C , Welcome to Swing Programming in Blue color plain font with font size of 32 using Jframe and Jlabel
 🔗 Output Screenshot
 
 4b. Develop a Swing program in Java to display a message “Srilanka is pressed” or “India is pressed” depending upon the Jbutton either Srilanka or India is pressed by implementing the event handling mechanism with addActionListener( ).
