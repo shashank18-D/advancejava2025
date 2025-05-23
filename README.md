@@ -14,11 +14,11 @@ Adding elements, 2. Adding element at specific index, 3. Adding multiple element
 
 ## 3.Write a java program for getting different colors through ArrayList interface and sort them using Collections.sort( ArrayListObj)
 
-🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/InsertEndLinkedList.png)
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/SortColorsArrayList.png)
 
 ## 4.Write a java program for getting different colors through ArrayList interface and extract the elements 1st and 2nd from the ArrayList object by using SubList()
 
-🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/DisplayWithPositionsLinkedList.png)
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/SubListColorsArrayList.png)
 
 ## 5.Write a java program for getting different colors through ArrayList interface and delete nth element from the ArrayList object by using remove by index
 
@@ -27,23 +27,23 @@ Adding elements, 2. Adding element at specific index, 3. Adding multiple element
 ## 1c. Linked List Programs
 1.Write a Java program to iterate through all elements in a linked list starting at the specified position ( 2nd) using iterator ( hint : Iterator iteratorobj = listobj.listIterator(1))
 
-🔗 [Output Screenshot]()
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/IterateFromSecondLinkedList.png)
 
 2.Write a Java program to iterate a linked list in reverse order (using objlist.descendingIterator())
 
-🔗[Output Screenshot]()
+🔗[Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/ReverseIterateLinkedList.png)
 
 3.Write a Java program to insert the specified element at the end of a linked list.( using l_listobj.offerLast("Pink"))
 
-🔗 [Output Screenshot]()
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/InsertEndLinkedList.png)
 
 4.Write a Java program to display elements and their positions in a linked list ( using l_listobj.get(p) )
 
-🔗 [Output Screenshot]()
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/DisplayWithPositionsLinkedList.png)
 
 5.Write a Java program that swaps two elements ( first and third elements ) in a linked list ( using Collections.swap(l_list, 0, 2))
 
-🔗 [Output Screenshot]()
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/SwapElementsLinkedList.png)
 
 ## 2a. Develop a java program for performing various string operations with different string handling functions directed as follows:
 String Creation and Basic Operations, Length and Character Access, String Comparison, String Searching, Substring Operations , String Modification, Whitespace Handling, String Concatenation, String Splitting, StringBuilder Demo, String Formatting , Validate Email with contains( ) and startsWith() and endsWith()
@@ -52,12 +52,12 @@ String Creation and Basic Operations, Length and Character Access, String Compar
 2b. Develop a Java program to make a Performance Test on StringBuffer and StringBuilder for appending the string ‘AIET’ for 10000 times both in the StringBuffer and StringBuilder. Justify your answer which one is better.
 🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab2/PerformanceTest.png)
 
-3a. Develop a java program for performing various string operations with different string handling functions directed as follows:
+## 3a. Develop a java program for performing various string operations with different string handling functions directed as follows:
 String Creation and Basic Operations, Length and Character Access, String Comparison, String Searching, Substring Operations , String Modification, Whitespace Handling, String Concatenation, String Splitting, StringBuilder Demo, String Formatting , Validate Email with contains( ) and startsWith() and endsWith()
 
 🔗 Output Screenshot
 
-3b. String Exercise progams
+## 3b. String Exercise progams
 Q1. Write a Java Program for Checking if a given string is null or contains only whitespace using user defined function isNullOrEmpty().
 
 🔗 Output Screenshot
