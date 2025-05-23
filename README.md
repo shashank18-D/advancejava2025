@@ -10,21 +10,21 @@ Adding elements, 2. Adding element at specific index, 3. Adding multiple element
 
 2.Write a java program for getting different colors through ArrayList interface and remove the 2nd element and color "Blue" from the ArrayList
 
-Output Sreenshot
+[Output Sreenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/RemoveColorArrayList.png)
 
 3.Write a java program for getting different colors through ArrayList interface and sort them using Collections.sort( ArrayListObj)
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/InsertEndLinkedList.png)
 
 4.Write a java program for getting different colors through ArrayList interface and extract the elements 1st and 2nd from the ArrayList object by using SubList()
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/DisplayWithPositionsLinkedList.png)
 
 5.Write a java program for getting different colors through ArrayList interface and delete nth element from the ArrayList object by using remove by index
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Exp1ArraysAndLinkedList/DeleteNthElementArrayList.png)
 
-1c. Linked List Programs
+## 1c. Linked List Programs
 1.Write a Java program to iterate through all elements in a linked list starting at the specified position ( 2nd) using iterator ( hint : Iterator iteratorobj = listobj.listIterator(1))
 
 🔗 Output Screenshot
