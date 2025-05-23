@@ -60,44 +60,44 @@ String Creation and Basic Operations, Length and Character Access, String Compar
 ## 3b. String Exercise progams
 Q1. Write a Java Program for Checking if a given string is null or contains only whitespace using user defined function isNullOrEmpty().
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab3StringOperations/CheckNullOrEmpty.png)
 
 Q2. Write a Java Program for Counting how many times a substring appears in a main string using user defined function countOccurrences()
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab3StringOperations/CountSubstringOccurrences.png)
 
 Q3. Write a Java Program for Reversing the characters in a string using user defined function reverseString().
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab3StringOperations/ReverseString.jpeg)
 
 Q4. Write a Java Program for Checking if a string reads the same backward as forward (ignoring case and punctuation) using user defined function isPalindrome():
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab3StringOperations/PalindromeChecker.png)
 
 Q5. Write a Java Program for Eliminating all whitespace characters from a string using user defined function removeWhitespace()
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab3StringOperations/RemoveWhitespace.jpeg)
 
 3c. String Exercise progams
 Q6. Write a Java Program for Capitalizing the first letter of each word. using user defined function capitalizeWords()
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab3StringOperations/CapitalizeWords.png)
 
 Q7. Write a Java Program for Shortening a string to a specified length and adds an ellipsis using user defined function truncate()
 
-🔗 Output Screenshot
+🔗 [Output Screenshot]()
 
 Q8. Write a Java Program for Verifying if a string contains only numeric characters using user defined function isNumeric()
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab3StringOperations/CheckNumeric.png)
 
 Q9. Write a Java Program for Creating a random string of a specified length using user defined function generateRandomString()
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab3StringOperations/RandomStringGenerator.png)
 
 Q10. Write a Java Program for Counting the number of words in a string using user defined function countWords()
 
-🔗 Output Screenshot
+🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab3StringOperations/CountWordsInString.png)
 
 ## 4a. Basic hello program of Swing displaying the message Hello! VI C , Welcome to Swing Programming in Blue color plain font with font size of 32 using Jframe and Jlabel
 🔗 [Output Screenshot](https://github.com/shashank18-D/advancejava2025/blob/main/Lab4Swing/SwingExample.jpeg)
